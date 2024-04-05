@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="17.806752">
+    <testcase classname="To validate the Login functionality of Faceboof" name="To validate the facebook with Valid email and valid password" time="6.339762">
+        <system-out><![CDATA[Given To launch the Browser and Maximize....................................passed
+When To launch the facebook url.............................................passed
+And To pass the email in email field........................................passed
+And To pass the password in password field..................................passed
+And Click the login buttone.................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Faceboof" name="To validate the positive and nagative combination of login functionality" time="4.074252">
+        <system-out><![CDATA[Given User launch the Browser...............................................passed
+When User launch Facebook URL...............................................passed
+And User has to pass data "surya@gmail.com" in email field..................passed
+And User has to pass data "123456" in Password field........................passed
+And User has to Click Login buttone.........................................passed
+Then User has to close the Browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Faceboof" name="To validate the positive and nagative combination of login functionality 2" time="3.652333">
+        <system-out><![CDATA[Given User launch the Browser...............................................passed
+When User launch Facebook URL...............................................passed
+And User has to pass data "hariram@gmail.com" in email field................passed
+And User has to pass data "23567" in Password field.........................passed
+And User has to Click Login buttone.........................................passed
+Then User has to close the Browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Faceboof" name="To validate the positive and nagative combination of login functionality 3" time="3.740405">
+        <system-out><![CDATA[Given User launch the Browser...............................................passed
+When User launch Facebook URL...............................................passed
+And User has to pass data "jayi@gmail.com" in email field...................passed
+And User has to pass data "234567" in Password field........................passed
+And User has to Click Login buttone.........................................passed
+Then User has to close the Browser..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
